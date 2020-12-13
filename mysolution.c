@@ -295,7 +295,7 @@ BTNode* factor(void)
 			retp->right = expr();
 			retp->left = left;
 		}
-		else if(match(ID) || match(INT)){// ID 後 不能是 ID || INT
+		else if(match(ID) || match(INT)){// ID 竄獺 瞻瞿簪��竅O ID || INT
             error();
 		}
 		else {
